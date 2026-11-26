@@ -1,6 +1,6 @@
 # Ses kayıt metni (Türkçe seslendirme için)
 
-Toplam okuma süresi yaklaşık 15 dakika. Bölümleri ayrı dosyalar olarak kaydedin (bölüm adı dosya adı olsun: `01-onay.m4a`, `02-referans.m4a` ...). Bir yerde takılırsanız durmayın; cümlenin başına dönüp yeniden okuyun, ben temizlerim.
+Toplam okuma süresi yaklaşık 20-25 dakika. Bölümleri ayrı dosyalar olarak kaydedin (bölüm adı dosya adı olsun: `01-onay.m4a`, `02-referans.m4a` ...). Bir yerde takılırsanız durmayın; cümlenin başına dönüp yeniden okuyun, ben temizlerim.
 
 ## Kayıt öncesi kontrol listesi
 
@@ -119,6 +119,24 @@ Okumadan, kendi cümlelerinizle anlatın. Bu kısım sesin en doğal halini veri
 - Çocukluğunuzdan bir anı.
 - En sevdiğiniz yemeği nasıl yaptığınız.
 - Son gittiğiniz bir yer ve orada ne gördüğünüz.
+
+
+## 18 · Geniş duygu aralığı (isteğe bağlı ama önerilir)
+
+> (Gülerek) Hayır ya, olamaz, gerçekten mi? (kısa bir kahkaha)
+> (Yüksek sesle, bağırmadan) Dikkat! Kapılar açılıyor!
+> (Hayal kırıklığıyla) Ah... meğer yanlış biliyormuşuz.
+> (Kızgın ama kontrollü) Bu kadar basit bir şeyi nasıl gözden kaçırdık?
+> (Çok sakin, uykuya dalarken anlatır gibi) Gece çöktü, yıldızlar bir bir yandı, her şey sessizleşti.
+> (Çocuğa anlatır gibi) Bak şimdi, arılar dans ederek birbirine yol tarif ediyor. Ne tatlı, değil mi?
+
+## 19 · İngilizce kısa bölüm (ileride İngilizce video yapma ihtimaline karşı)
+
+> Sometimes the most ordinary things hide the most surprising stories. A bowl of jelly in the kitchen, a star in the night sky, or a clay tablet written thousands of years ago. Each one has something to tell. Did you know that? Subscribe, and let's find out together.
+
+## 20 · Uzun kesintisiz okuma (3-5 dakika)
+
+Herhangi bir kitaptan, makaleden ya da haber sitesinden 3-5 dakika boyunca, ara vermeden normal anlatım tonuyla okuyun. İleride sese özel daha gelişmiş bir model eğitmek gerekirse bu bölüm kullanılır.
 
 ---
 
