@@ -1,5 +1,8 @@
 # Üretim promptları: nihai sunum (2026-11-26)
 
+> **Güncelleme (2026-11-26):** Seslendirme artık TÜRKÇE ve eşinizin kopyalanmış sesiyle yapılacak (kayıt metni: `ses/KAYIT-METNI.md`). Promptlardaki İngilizce seslendirme metinleri üretimde Türkçeye çevrilir; Türkçe altyazı metni seslendirme metni olarak kullanılır. Anlatıcı farkları ses değil ton, hız ve vurgu ile verilir. Her videoda YouTube'da sentetik içerik beyanı işaretlenir.
+
+
 ## 1. Giriş
 
 Bu dosyada 11 kategoride 33 YouTube Shorts promptu var. Seslendirme İngilizce. Ekrandaki altyazı ve etiketler Türkçe. Her promptun tam metni `promptlar/<kategori>.md` dosyasında: sahne akışı, seslendirme, altyazı, ses yönergesi, görsel tasarım, görsel promptları, doğruluk şartları ve risk notu. Bu dosya o metinleri tekrarlamaz. Yalnızca özet, durum, yayın sırası ve açık teyit maddelerini verir.

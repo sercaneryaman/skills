@@ -1,5 +1,8 @@
 # Üretim ekibi: stil atamaları (2026-11-26)
 
+> **Güncelleme (2026-11-26):** Seslendirme artık TÜRKÇE ve eşinizin kopyalanmış sesiyle yapılacak (kayıt metni: `ses/KAYIT-METNI.md`). Promptlardaki İngilizce seslendirme metinleri üretimde Türkçeye çevrilir; Türkçe altyazı metni seslendirme metni olarak kullanılır. Anlatıcı farkları ses değil ton, hız ve vurgu ile verilir. Her videoda YouTube'da sentetik içerik beyanı işaretlenir.
+
+
 Her video farklı olsun diye her fikre ayrı bir görsel stil, anlatıcı, altyazı stili, yapı ve süre atandı. Uzman kendi videolarının promptunu bu atamaya göre yazar. Atamayı değiştirmek gerekirse gerekçesini yazar, başka bir videonun stilini kopyalamaz.
 
 Sabit kurallar (tüm videolar):
