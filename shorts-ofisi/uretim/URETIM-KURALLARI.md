@@ -14,3 +14,9 @@
 - Yabancı terimler TDK sözlüğündeki biçimiyle yazılır (glikoz, antifriz). Bilimsel ad italik ve Latince kalır (Rana sylvatica).
 - Seslendirmede zor kelimeler (j, ğ, uzun ünlüler) için ek çekim yapılır, Whisper ile kontrol edilir. Kötü okunan kelime varsa cümle yeniden kurulur.
 - sozluk.gov.tr bu ortamdan erişilemiyor. Şüpheli kelimede web araması ve Yazım Kılavuzu kuralı ile karar verilir.
+
+## Ses efektleri
+- Gerçek kayıt ses efektleri önce Openverse'ten aranır (`openverse` yeteneği, `ov.py audio "<ses>" --commercial`). Kaynaklar: Freesound, Wikimedia Commons ve diğerleri.
+- Yalnızca ticari kullanıma izin veren lisanslar: CC0, kamu malı, CC BY, CC BY-SA. NC ve ND lisanslar kullanılmaz.
+- Her sesin kaynak satırı (`<id>.credit.txt`) video açıklamasına eklenir; ekrana yazılmaz.
+- Openverse'te uygun ses yoksa ya da kota doluysa earshot ile ses üretilir.
