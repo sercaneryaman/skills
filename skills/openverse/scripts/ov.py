@@ -10,12 +10,17 @@ UA = {'User-Agent': 'shorts-research/1.0 (openverse skill)'}
 def req(url, raw=False):
     h = dict(UA)
     if os.environ.get('OPENVERSE_TOKEN'): h['Authorization'] = 'Bearer ' + os.environ['OPENVERSE_TOKEN']
-    try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=60) as r:
-            return r.read() if raw else json.load(r)
-    except urllib.error.HTTPError as e:
-        body = e.read().decode('utf-8', 'replace')[:200]
-        sys.exit(f'HTTP {e.code} for {url}: {body}')
+    import re, time
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=60) as r:
+                return r.read() if raw else json.load(r)
+        except urllib.error.HTTPError as e:
+            body = e.read().decode('utf-8', 'replace')[:200]
+            m = re.search(r'available in (\d+) seconds', body)
+            if e.code == 429 and m and int(m.group(1)) <= 30 and attempt < 3:
+                time.sleep(int(m.group(1)) + 1); continue
+            sys.exit(f'HTTP {e.code} for {url}: {body}')
 def credit(r):
     lic = f"{r.get('license','').upper()} {r.get('license_version') or ''}".strip()
     if lic.startswith('PDM') or lic.startswith('CC0'): lic += ' (kamu malı)'
