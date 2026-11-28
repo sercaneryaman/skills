@@ -1,0 +1,1 @@
+Lemo-Opuscar Chalkboard engine code (js/, tools/) is MIT, (c) 2026 SecondFirst Pty Ltd t/a LemoLab, github.com/lemomo-ai/lemo-opuscar. EMS fonts: SIL OFL 1.1 (OFL-EMS.txt).
